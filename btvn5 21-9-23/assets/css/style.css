@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* head */
+.head  {
+    height: 700px;
+    width: 100%;
+    background-color: #F0F2F5;
+    position: absolute;
+}
+.head-left {
+   position: relative;
+   top: 200px;
+   left: 200px;
+}
+.head-left h1 {
+    font-size: 80px;
+    color: #1877F2;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+.head-left h2 {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.head-right .con {
+    width: 400px;
+    height: 382px;
+    background-color:white;
+    position: relative;
+    left: 1100px;
+    border-radius: 3%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.con .text1 input{
+    height: 50px;
+    width: 360px;
+    border-radius: 3%;
+    box-shadow:  rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding-left:10px;
+    font-size: large;
+}
+.con .text2 input{
+    height: 50px;
+    width: 360px;
+    border-radius: 3%;
+    box-shadow:  rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding-left:10px;
+    font-size: large;
+}
+.con .text3{
+    height: 50px;
+    width: 360px;
+    background-color: #1877F2;
+    border-radius: 8%;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.con .text3 p {
+    font-size: 25px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 10px;
+    left: 120px;
+}
+ .con .text4 p {
+    color:#1877F2;
+    position: relative;
+    top: 15px;
+    left: 140px;
+    font-size: large;
+}
+ .con .text5{
+   height: 1px;
+   width: 360px;
+   background-color: #F0F2F5;
+   box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+   position: relative;
+   top: 35px;
+   left: 20px;
+ }
+ .con .text6 {
+    width: 180px;
+    height: 50px;
+    background-color: #42B72A;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    margin-top: 70px;
+    margin-left: 110px;
+ }
+.con .text6 p {
+    color:white;
+    font-size: 20px;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.head .headbottom {
+    position: relative;
+    top: 35px;
+    left: 1100px;
+}
+.head .headbottom p {
+    display: flex;
+}
+/* footer */
+.footer .con1 {
+    width: 1300px;
+    height: 170px;
+    position: relative;
+    top: 130px;
+    left: 200px;
+}
+.footer .con1 .t1 p {
+    font-size: 18px;
+    color:#8A8E93;
+}
+.footer .con1 .t1{
+    font-size: 18px;
+}
+.footer .con1 .t2 p {
+    font-size: 18px;
+    color:#8A8E93;
+    margin-top: 20PX;
+}
+.footer .con1 .t3 {
+    font-size: 18px;
+    color:#8A8E93;
+    margin-top: 20px;
+
+}
